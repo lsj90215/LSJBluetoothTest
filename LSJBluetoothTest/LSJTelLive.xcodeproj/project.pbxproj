@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351B1CA641EE52BE65428F68 /* libPods-LSJTelLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D093938DB4C2BEDCDA58CD7 /* libPods-LSJTelLive.a */; };
+		481620701DB22F4900414368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4816206F1DB22F4900414368 /* main.m */; };
+		481620731DB22F4900414368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 481620721DB22F4900414368 /* AppDelegate.m */; };
+		4816207B1DB22F4900414368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4816207A1DB22F4900414368 /* Assets.xcassets */; };
+		4816207E1DB22F4900414368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4816207C1DB22F4900414368 /* LaunchScreen.storyboard */; };
+		481620991DB2306800414368 /* LSJMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481620981DB2306800414368 /* LSJMainTabbarController.m */; };
+		4816209C1DB2309200414368 /* LSJNavBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4816209B1DB2309200414368 /* LSJNavBaseController.m */; };
+		481620A31DB23D5700414368 /* LSJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481620A21DB23D5700414368 /* LSJBaseViewController.m */; };
+		4890F5AF1DB36A0D006F1DDD /* LSJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4890F5AE1DB36A0D006F1DDD /* LSJLabel.m */; };
+		4890F5B61DB36A1D006F1DDD /* LSJCentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4890F5B31DB36A1D006F1DDD /* LSJCentralViewController.m */; };
+		4890F5BD1DB36A26006F1DDD /* LSJPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4890F5BA1DB36A26006F1DDD /* LSJPeripheralViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34CE59095C6BBF961A7B564C /* Pods-LSJTelLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSJTelLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSJTelLive/Pods-LSJTelLive.release.xcconfig"; sourceTree = "<group>"; };
+		3D093938DB4C2BEDCDA58CD7 /* libPods-LSJTelLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSJTelLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4816206B1DB22F4900414368 /* LSJTelLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSJTelLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4816206F1DB22F4900414368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		481620711DB22F4900414368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		481620721DB22F4900414368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4816207A1DB22F4900414368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4816207D1DB22F4900414368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4816207F1DB22F4900414368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		481620971DB2306800414368 /* LSJMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJMainTabbarController.h; sourceTree = "<group>"; };
+		481620981DB2306800414368 /* LSJMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJMainTabbarController.m; sourceTree = "<group>"; };
+		4816209A1DB2309200414368 /* LSJNavBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJNavBaseController.h; sourceTree = "<group>"; };
+		4816209B1DB2309200414368 /* LSJNavBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJNavBaseController.m; sourceTree = "<group>"; };
+		4816209D1DB23B6600414368 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		481620A11DB23D5700414368 /* LSJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJBaseViewController.h; sourceTree = "<group>"; };
+		481620A21DB23D5700414368 /* LSJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJBaseViewController.m; sourceTree = "<group>"; };
+		4890F5AC1DB36A0D006F1DDD /* BluetoothUUIDDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothUUIDDefine.h; sourceTree = "<group>"; };
+		4890F5AD1DB36A0D006F1DDD /* LSJLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJLabel.h; sourceTree = "<group>"; };
+		4890F5AE1DB36A0D006F1DDD /* LSJLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJLabel.m; sourceTree = "<group>"; };
+		4890F5B21DB36A1D006F1DDD /* LSJCentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJCentralViewController.h; sourceTree = "<group>"; };
+		4890F5B31DB36A1D006F1DDD /* LSJCentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJCentralViewController.m; sourceTree = "<group>"; };
+		4890F5B91DB36A26006F1DDD /* LSJPeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSJPeripheralViewController.h; sourceTree = "<group>"; };
+		4890F5BA1DB36A26006F1DDD /* LSJPeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSJPeripheralViewController.m; sourceTree = "<group>"; };
+		8249637C40312952254164CB /* Pods-LSJTelLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSJTelLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSJTelLive/Pods-LSJTelLive.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		481620681DB22F4900414368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351B1CA641EE52BE65428F68 /* libPods-LSJTelLive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18543822D834FBC6F4C42FC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D093938DB4C2BEDCDA58CD7 /* libPods-LSJTelLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		481620621DB22F4900414368 = {
+			isa = PBXGroup;
+			children = (
+				4816206D1DB22F4900414368 /* LSJTelLive */,
+				4816206C1DB22F4900414368 /* Products */,
+				D805E397B46A82B6F1CDB7DC /* Pods */,
+				18543822D834FBC6F4C42FC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4816206C1DB22F4900414368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4816206B1DB22F4900414368 /* LSJTelLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4816206D1DB22F4900414368 /* LSJTelLive */ = {
+			isa = PBXGroup;
+			children = (
+				481620961DB2303200414368 /* Tools */,
+				481620851DB2302A00414368 /* Classes */,
+				4816206E1DB22F4900414368 /* Supporting Files */,
+			);
+			path = LSJTelLive;
+			sourceTree = "<group>";
+		};
+		4816206E1DB22F4900414368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				481620711DB22F4900414368 /* AppDelegate.h */,
+				481620721DB22F4900414368 /* AppDelegate.m */,
+				4816207A1DB22F4900414368 /* Assets.xcassets */,
+				4816207C1DB22F4900414368 /* LaunchScreen.storyboard */,
+				4816207F1DB22F4900414368 /* Info.plist */,
+				4816206F1DB22F4900414368 /* main.m */,
+				4816209D1DB23B6600414368 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		481620851DB2302A00414368 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4816208A1DB2302A00414368 /* Main */,
+				4890F5B71DB36A26006F1DDD /* Peripheral */,
+				4890F5B01DB36A1D006F1DDD /* Central */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4816208A1DB2302A00414368 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4816208B1DB2302A00414368 /* Controllers */,
+				4816208C1DB2302A00414368 /* Model */,
+				4816208D1DB2302A00414368 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4816208B1DB2302A00414368 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				481620971DB2306800414368 /* LSJMainTabbarController.h */,
+				481620981DB2306800414368 /* LSJMainTabbarController.m */,
+				4816209A1DB2309200414368 /* LSJNavBaseController.h */,
+				4816209B1DB2309200414368 /* LSJNavBaseController.m */,
+				481620A11DB23D5700414368 /* LSJBaseViewController.h */,
+				481620A21DB23D5700414368 /* LSJBaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4816208C1DB2302A00414368 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4816208D1DB2302A00414368 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		481620961DB2303200414368 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4890F5AC1DB36A0D006F1DDD /* BluetoothUUIDDefine.h */,
+				4890F5AD1DB36A0D006F1DDD /* LSJLabel.h */,
+				4890F5AE1DB36A0D006F1DDD /* LSJLabel.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		4890F5B01DB36A1D006F1DDD /* Central */ = {
+			isa = PBXGroup;
+			children = (
+				4890F5B11DB36A1D006F1DDD /* Controllers */,
+				4890F5B41DB36A1D006F1DDD /* Model */,
+				4890F5B51DB36A1D006F1DDD /* View */,
+			);
+			path = Central;
+			sourceTree = "<group>";
+		};
+		4890F5B11DB36A1D006F1DDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4890F5B21DB36A1D006F1DDD /* LSJCentralViewController.h */,
+				4890F5B31DB36A1D006F1DDD /* LSJCentralViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4890F5B41DB36A1D006F1DDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4890F5B51DB36A1D006F1DDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4890F5B71DB36A26006F1DDD /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				4890F5B81DB36A26006F1DDD /* Controllers */,
+				4890F5BB1DB36A26006F1DDD /* Model */,
+				4890F5BC1DB36A26006F1DDD /* View */,
+			);
+			path = Peripheral;
+			sourceTree = "<group>";
+		};
+		4890F5B81DB36A26006F1DDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4890F5B91DB36A26006F1DDD /* LSJPeripheralViewController.h */,
+				4890F5BA1DB36A26006F1DDD /* LSJPeripheralViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4890F5BB1DB36A26006F1DDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4890F5BC1DB36A26006F1DDD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D805E397B46A82B6F1CDB7DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8249637C40312952254164CB /* Pods-LSJTelLive.debug.xcconfig */,
+				34CE59095C6BBF961A7B564C /* Pods-LSJTelLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4816206A1DB22F4900414368 /* LSJTelLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481620821DB22F4900414368 /* Build configuration list for PBXNativeTarget "LSJTelLive" */;
+			buildPhases = (
+				4930DEA311124A5E85EBED42 /* [CP] Check Pods Manifest.lock */,
+				481620671DB22F4900414368 /* Sources */,
+				481620681DB22F4900414368 /* Frameworks */,
+				481620691DB22F4900414368 /* Resources */,
+				425B4F704BE80ECBA12342A9 /* [CP] Embed Pods Frameworks */,
+				1B3BC341B2060F72832EB6EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSJTelLive;
+			productName = LSJTelLive;
+			productReference = 4816206B1DB22F4900414368 /* LSJTelLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		481620631DB22F4900414368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LSJ;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lsj;
+				TargetAttributes = {
+					4816206A1DB22F4900414368 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7X5288238P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 481620661DB22F4900414368 /* Build configuration list for PBXProject "LSJTelLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 481620621DB22F4900414368;
+			productRefGroup = 4816206C1DB22F4900414368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4816206A1DB22F4900414368 /* LSJTelLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		481620691DB22F4900414368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4816207E1DB22F4900414368 /* LaunchScreen.storyboard in Resources */,
+				4816207B1DB22F4900414368 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B3BC341B2060F72832EB6EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSJTelLive/Pods-LSJTelLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		425B4F704BE80ECBA12342A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSJTelLive/Pods-LSJTelLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4930DEA311124A5E85EBED42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		481620671DB22F4900414368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481620991DB2306800414368 /* LSJMainTabbarController.m in Sources */,
+				481620731DB22F4900414368 /* AppDelegate.m in Sources */,
+				4816209C1DB2309200414368 /* LSJNavBaseController.m in Sources */,
+				4890F5AF1DB36A0D006F1DDD /* LSJLabel.m in Sources */,
+				481620701DB22F4900414368 /* main.m in Sources */,
+				4890F5B61DB36A1D006F1DDD /* LSJCentralViewController.m in Sources */,
+				481620A31DB23D5700414368 /* LSJBaseViewController.m in Sources */,
+				4890F5BD1DB36A26006F1DDD /* LSJPeripheralViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4816207C1DB22F4900414368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4816207D1DB22F4900414368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		481620801DB22F4900414368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		481620811DB22F4900414368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		481620831DB22F4900414368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8249637C40312952254164CB /* Pods-LSJTelLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7X5288238P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSJTelLive/Tools",
+				);
+				GCC_PREFIX_HEADER = LSJTelLive/PrefixHeader.pch;
+				INFOPLIST_FILE = LSJTelLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cardspay.iOS.LSJTelLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		481620841DB22F4900414368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CE59095C6BBF961A7B564C /* Pods-LSJTelLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7X5288238P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSJTelLive/Tools",
+				);
+				GCC_PREFIX_HEADER = LSJTelLive/PrefixHeader.pch;
+				INFOPLIST_FILE = LSJTelLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cardspay.iOS.LSJTelLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		481620661DB22F4900414368 /* Build configuration list for PBXProject "LSJTelLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481620801DB22F4900414368 /* Debug */,
+				481620811DB22F4900414368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481620821DB22F4900414368 /* Build configuration list for PBXNativeTarget "LSJTelLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481620831DB22F4900414368 /* Debug */,
+				481620841DB22F4900414368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 481620631DB22F4900414368 /* Project object */;
+}
